@@ -63,7 +63,7 @@ packages_required <- c(
   # R tools, do not modify
   "knitr",
   # Add specific packages here
-  "tidyverse", 
+  'tidyverse', 
   "divent",
   "vegan",
   "tinytex"
