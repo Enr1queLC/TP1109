@@ -7,4 +7,5 @@
 *.pdf
 *.log
 *.tex
+*_cache/
 *_files/

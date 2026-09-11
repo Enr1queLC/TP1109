@@ -163,8 +163,10 @@ BCI %>%
 
 # Résultats
 
+::: {#fig-profils}
 ```{r}
 #| label: Profils
+ggtheme_set()
 paracou6 %>% 
   # Vecteur des noms d'espèce de chaque arbre
   pull(spName) %>% 
@@ -182,7 +184,12 @@ paracou6 %>%
   autoplot() +
   # Titre de la légende
   labs(color = "Forêt", linetype = "Forêt")
+  # Suppression du cartouche
+  theme(legende.position ="none")
 ```
+
+Profils de diversité de Paracou parcelle 6 (courbe bleue)...
+:::
 
 # Discussion
 
