@@ -189,6 +189,7 @@ paracou6 %>%
 ```
 
 Profils de diversité de Paracou parcelle 6 (courbe bleue)...
+(dernière modification)
 :::
 
 # Discussion
