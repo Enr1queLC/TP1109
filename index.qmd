@@ -124,7 +124,7 @@ set.seed(973)
 
 # Matèriels et méthodes
 
-- Présentation du site de Paracou.
+- Présentation du site de Paracou [@Gourlet-Fleury2004].
 
 ```{r}
 #| label: Paracou
@@ -132,7 +132,7 @@ library("tidyverse")
 paracou6 <- read_csv2("data/Paracou6.csv")
 ```
 
-- Présentation du site de BCI
+- Présentation du site de BCI [@Raby2017].
 
 ```{r}
 #| label: BCI
